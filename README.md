@@ -2,17 +2,6 @@
 
 A Chrome extension that provides helpful Git-related functionality.
 
-## Project Structure
-
-```
-Git-Buddy/
-├── manifest.json          # Extension configuration file
-├── hello.html            # Popup HTML file
-├── popup.js              # Popup JavaScript logic
-├── hello_extensions.png  # Extension icon
-└── README.md             # This file
-```
-
 ## Installation & Development Setup
 
 ### Prerequisites
@@ -85,48 +74,6 @@ cd Git-Buddy
 - This is normal for development mode extensions
 - You'll need to reload it using "Load unpacked" again
 
-### Development Workflow
-
-#### Making Changes
-
-1. **Edit your files** (HTML, CSS, JavaScript) in your preferred code editor
-2. **Save the files**
-3. **Go back to `chrome://extensions/`**
-4. **Click the refresh/reload button** (🔄) on your extension card
-5. **Test your changes** by clicking the extension icon
-
-#### Hot Reload (Recommended)
-
-For a better development experience, you can use the **"Reload"** button instead of manually refreshing:
-
-1. Make changes to your code
-2. Save the files
-3. Click the **🔄 Reload button** on your extension in `chrome://extensions/`
-4. Test immediately - no need to close/reopen popups
-
-### File Descriptions
-
-- **`manifest.json`**: Defines the extension's properties, permissions, and behavior
-- **`hello.html`**: The popup interface that appears when clicking the extension icon
-- **`popup.js`**: JavaScript logic for the popup functionality
-- **`hello_extensions.png`**: Icon displayed in the Chrome toolbar
-
-### Next Steps
-
-Once you're comfortable with the basic setup:
-
-1. **Modify the HTML** in `hello.html` to change the popup content
-2. **Add functionality** in `popup.js` for your Git-related features
-3. **Update the manifest.json** to add permissions or background scripts as needed
-4. **Customize the icon** by replacing `hello_extensions.png`
-
-### Publishing (Optional)
-
-When you're ready to distribute your extension:
-
-1. **Package the extension** using Chrome's "Pack extension" feature
-2. **Submit to Chrome Web Store** for public distribution
-3. **Or distribute the .crx file** directly to users (requires manual installation)
 
 ### Support & Resources
 
